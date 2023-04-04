@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">PracticalTest01</string>
+    <string name="number_of_clicks">Number of clicks</string>
+    <string name="ok">ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="navigate_to_another_activity">Navigate to another activity</string>
 </resources>

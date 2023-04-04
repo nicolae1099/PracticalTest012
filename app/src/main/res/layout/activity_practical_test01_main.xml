@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PracticalTest01MainActivity"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/navigate_to_another_activity_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/navigate_to_another_activity"
+        android:layout_gravity="center"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/left_edit_text"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:enabled="false"
+            android:saveEnabled="false"
+            android:text="0">
+        </EditText>
+
+        <EditText
+            android:id="@+id/right_edit_text"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:layout_height="wrap_content"
+            android:text="0">
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/press_me_button"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:text="Press me!">
+        </Button>
+
+        <Button
+            android:id="@+id/press_me_too_button"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Press me too">
+        </Button>
+    </LinearLayout>
+</LinearLayout>
